@@ -1,4 +1,12 @@
 # Syntax and Grammar
+C Tokens
+- Keywords
+- Identifiers
+- Constants
+- Special Characters
+- Strings
+- Operators
+<br>
 
 Basic types: 
 u8, u16, u32, u64, u128?, i8, i16, i32, i64, i128?, char, str, bool, [x] (array), (x) (tuple), ptr, 
