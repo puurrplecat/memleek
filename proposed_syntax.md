@@ -1,7 +1,40 @@
 # Syntax and Grammar
+C Tokens
+- Keywords
+- Identifiers
+- Constants
+- Special Characters
+- Strings
+- Operators
+<br>
 
 Basic types: 
-u8, u16, u32, u64, u128?, i8, i16, i32, i64, i128?, char, str, bool, [x] (array), (x) (tuple), 
+u8, u16, u32, u64, u128?, i8, i16, i32, i64, i128?, char, str, bool, [x] (array), (x) (tuple), ptr, 
+
+<br>
+Basic operators:
+<br>
+
+**Arithmetic**
+
+```+ * - / % ```
+
+**Assignment**
+
+``` += -= *= /=```
+
+**Ordering**
+
+```== != < > <= >=```
+  
+**Function Composition**
+
+``` f <- g(x)```
+
+**Boolean**
+
+``` && || ^ ! !& !| !^ ```
+AND OR XOR NOT NAND NOR XNOR
 
 <br>
 Variable assignment and type annotation
@@ -53,8 +86,22 @@ x( a: u32, b: u32, c: u32) : u32 {
   ...
 }
 ```
-
 Debate for ```return``` keyword
+
+<br>
+Lambdas
+
+```
+|x: u32| { x + 1 }
+```
+Parameters must have types (because these are compiled to C functions which require typed parameters.
+
+<br>
+Type casting
+
+```
+x: u64 = 1 to u64
+```
 
 <br>
 Structs
